@@ -1,0 +1,14 @@
+<section>
+    <svg width="1440" height="53" viewBox="0 0 1440 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M-3 1.50005C23.1667 10.1667 93.1 26.3 163.5 21.5C251.5 15.5 266.5 5.50005 313 8.50005C359.5 11.5 440 34.5 468.5 34.5C497 34.5 583.5 29.5 620 15.5C656.5 1.50005 778 8.50005 841.5 21.5C905 34.5 1003.5 45 1089 15.5C1174.5 -14 1346 8.50005 1388 21.5C1421.6 31.9 1439 46.1667 1443.5 52" stroke="#C4C4C4" stroke-dasharray="12 12"/>
+    </svg>
+    <div class="play-cntnr">
+        <h2>Play</h2>
+        <div class="cards-cntnr">
+            <ng-container  *ngFor="let card of cards" >
+                <app-play-card [playCard]="card"></app-play-card>
+            </ng-container>
+        </div>
+    </div>
+</section>
+

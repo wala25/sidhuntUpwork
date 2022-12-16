@@ -38,6 +38,21 @@ h2{
     width: 70%;
     margin: auto;
 }
+.button{
+    padding:0px 20px;
+    width: max-content;
+    margin: 20px auto;
+    font-family: 'Urbanist', sans-serif;
+    line-height: 66px;
+    font-weight: 800;
+    font-size: 24px;
+    border: solid 2px black;
+    border-radius: 10px;
+    svg{
+        position: relative;
+        top: 5px;
+    }
+}
 .about{
     display: flex;
     padding: 30px 0px;
@@ -66,5 +81,9 @@ h2{
     }
     .clearbot-presentation{
         width: 100%;   
+    }
+    .button{
+        padding:0px 10px;
+        font-size: 20px;
     }
 }

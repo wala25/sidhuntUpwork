@@ -1,0 +1,27 @@
+.card-cntnr{
+    width: max-content;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+.square{
+    width:40px ;
+    height:40px ;
+    border-radius: 5px;
+}
+
+@media (max-width:1024px){
+    .card-cntnr{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:760px){
+    .card-cntnr{
+        font-size: 12px;
+    }
+    .square{
+        width:30px ;
+        height:30px ;
+    }
+}

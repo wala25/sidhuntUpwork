@@ -60,6 +60,7 @@ h1{
 
 @media (max-width:1024px){
     section{
+        width: 100%;
         display: block;
         padding-top: 0px;
     }
@@ -77,6 +78,17 @@ h1{
             width:100%;
             border-radius: 15px;
         }
+    }
+    .button{
+        padding:0px 10px;
+        font-size: 20px;
+    }
+    .ellipse1{
+        left:10%;
+    }
+    .ellipse2{
+        top:60px;
+        left:-50px;
     }
 }
 

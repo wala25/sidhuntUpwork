@@ -1,0 +1,53 @@
+section{
+    position: relative;
+    width: 100%;
+}
+.play-cntnr{
+    width: 95%;
+    height: 424px;
+    background: white;
+    margin: auto;
+    border: solid #ffd9021a 1px;
+}
+svg{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+}
+h2{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 36px;
+    margin:30px auto;
+    width: max-content;
+    &::after{
+        content: ' ';
+        display: block;
+        margin: auto;
+        width: 40%;
+        height: 3px;
+        background: #3F85F4;
+        transition: ease 1s;
+    }
+    &:hover{
+        &::after{
+            width: 75%;
+        }
+    }
+}
+.cards-cntnr{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    top: 105px;
+}
+
+@media (max-width:760px){
+    .play-cntnr{
+        
+        height: 212px;
+    }
+    .cards-cntnr{
+        top: 15px;
+    }
+}

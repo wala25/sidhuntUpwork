@@ -9,6 +9,8 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import {SwiperModule} from 'swiper/angular';
 import { SwiperContainerComponent } from './portfolio/swiper-container/swiper-container.component';
 import { CardComponent } from './portfolio/card/card.component';
+import { PlayComponent } from './play/play.component';
+import { PlayCardComponent } from './play/play-card/play-card.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { CardComponent } from './portfolio/card/card.component';
     AboutMeComponent,
     PortfolioComponent,
     SwiperContainerComponent,
-    CardComponent
+    CardComponent,
+    PlayComponent,
+    PlayCardComponent
   ],
   imports: [
     BrowserModule,
