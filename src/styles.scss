@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import 'swiper/scss';
+@import 'swiper/scss/navigation';
+@import 'swiper/scss/pagination';
+
+body{
+    background-color: #FDFDFF;
+}
+.swiper-button-next::after{
+    content: "➜";
+    color: #41BDF5;
+    right:20px;
+    font-size: 30px;
+}
+.swiper-button-prev::after {
+    content: "➜";
+    transform: rotate(180deg);
+    color: #EA4435;
+    left: 20px;
+    font-size: 30px;
+}
+.swiper-pagination-bullet:nth-child(1){
+    background: #EA4435;
+}
+.swiper-pagination-bullet:nth-last-child(1){
+    background: #41BDF5;
+}
+.swiper-pagination-bullet{
+    background: rgb(255, 215, 2);
+}

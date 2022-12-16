@@ -1,0 +1,11 @@
+<section>
+    <h2>Portfolio</h2>
+    <div class="specialities">
+        <span (click)="changeSpeciality(0)" [style]="{'color':(active==0)?'#32a9524d':'#0000004d'}">Robotics</span>
+        <span (click)="changeSpeciality(1)" [style]="{'color':(active==1)?'#32a9524d':'#0000004d'}">Fintech</span>
+        <span (click)="changeSpeciality(2)" [style]="{'color':(active==2)?'#32a9524d':'#0000004d'}">Edtech</span>
+        <span (click)="changeSpeciality(3)" [style]="{'color':(active==3)?'#32a9524d':'#0000004d'}">Medtech</span>
+    </div>
+    <app-swiper-container [cards]="cards"></app-swiper-container>
+</section>
+ 

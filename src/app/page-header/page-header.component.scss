@@ -1,0 +1,82 @@
+section{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 50px 0px;
+}
+.ellipse1{
+    position: absolute;
+    top:0px;
+    left:20%;
+}
+.ellipse2{
+    position: absolute;
+    top:60px;
+    left:0px;
+}
+.text-cntnr{
+    width:50%;
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.photo-cntnr{
+    width: max-content;
+    margin: auto;
+}
+p{
+    font-size: 24px;
+}
+.button{
+    padding:0px 20px;
+    width: max-content;
+    margin: auto;
+    line-height: 66px;
+    font-weight: 800;
+    font-size: 24px;
+    border: solid 2px black;
+    border-radius: 10px;
+    svg{
+        position: relative;
+        top: 5px;
+    }
+}
+h1,h2,p{
+    font-family: 'Urbanist', sans-serif;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 45px;
+}
+.h2{
+    font-weight: 600;
+    font-size: 20px;
+}
+.name{
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-size: 40px;
+}
+
+@media (max-width:1024px){
+    section{
+        display: block;
+        padding-top: 0px;
+    }
+    .text-cntnr{
+        width:100%;
+        max-width: 100%;
+        padding-bottom: 20px;
+    }
+    .photo-cntnr{
+        width:80%;
+        min-width: 340px;
+        border-radius: 15px;
+        margin: auto;
+        img{
+            width:100%;
+            border-radius: 15px;
+        }
+    }
+}
+

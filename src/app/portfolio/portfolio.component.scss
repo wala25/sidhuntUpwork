@@ -1,0 +1,44 @@
+section{
+    width:100%;
+    margin: auto;
+}
+h2{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 36px;
+    margin:30px auto;
+    width: max-content;
+    &::after{
+        content: ' ';
+        display: block;
+        margin: auto;
+        width: 40%;
+        height: 3px;
+        background-color: #FFD702;
+        transition: ease 1s;
+    }
+    &:hover{
+        &::after{
+            width: 85%;
+        }
+    }
+}
+.specialities{
+    width: 100%;
+    text-align: center;
+    span{
+        font-family: 'Poppins', sans-serif;
+        margin: 20px;
+        font-size: 18px;
+        color: #0000004d;
+        cursor: pointer;
+    }
+}
+
+@media (max-width:1024px){
+    .specialities{
+        span{
+            margin: 10px;
+            font-size: 15px;
+        }
+    }
+}
